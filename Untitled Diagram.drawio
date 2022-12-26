@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T03:53:36.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="YW9k8QsC1cbwsoH1sMF1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T04:00:27.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="lxP8cnXSADdfKXrQfJNi" type="github">
   <diagram id="r_YibBg9pNAlh49fxTqV" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,6 +23,19 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="110" as="sourcePoint" />
             <mxPoint x="450" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iW8ypiJLn93vTO-Lixs0-6" value="Search for stock in LOST load units in NOK chute location." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iW8ypiJLn93vTO-Lixs0-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-3" target="iW8ypiJLn93vTO-Lixs0-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="170" as="sourcePoint" />
+            <mxPoint x="450" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="240" />
+              <mxPoint x="100" y="240" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
