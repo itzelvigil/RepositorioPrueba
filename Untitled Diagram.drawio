@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-26T04:41:53.091Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="_Ij_dTA7CSik1DE7yVa9" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-26T18:20:22.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.4" etag="k7MwhEfFiTKrkWpEMho4" type="github">
   <diagram id="r_YibBg9pNAlh49fxTqV" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
           <mxGeometry x="240" y="365" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iW8ypiJLn93vTO-Lixs0-11" value="Search for stock by UPC in LOST_INDUCT locations and NOK chute" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="35" y="490" width="130" height="70" as="geometry" />
+          <mxGeometry x="35" y="485" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iW8ypiJLn93vTO-Lixs0-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-9" target="iW8ypiJLn93vTO-Lixs0-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -72,6 +72,27 @@
               <mxPoint x="100" y="470" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iW8ypiJLn93vTO-Lixs0-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-6" target="iW8ypiJLn93vTO-Lixs0-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iW8ypiJLn93vTO-Lixs0-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-8" target="iW8ypiJLn93vTO-Lixs0-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iW8ypiJLn93vTO-Lixs0-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-11" target="iW8ypiJLn93vTO-Lixs0-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="450" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iW8ypiJLn93vTO-Lixs0-18" value="Search for pickable NOK chute items by UPC in putwall" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
