@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T20:33:15.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="z0vMPo4-O88F1Flz8DKO" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T20:48:25.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DyjsiuS3k5kPglf9A-SV" version="20.8.5" type="github">
   <diagram id="r_YibBg9pNAlh49fxTqV" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -411,6 +411,18 @@
         </mxCell>
         <mxCell id="uiSWtzwR43BjHoKQ6L8p-89" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Go to scan putback load unit&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="535" y="650" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-90" value="Is available the putwall demand line by item?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-91" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uiSWtzwR43BjHoKQ6L8p-79" target="uiSWtzwR43BjHoKQ6L8p-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="405" as="sourcePoint" />
+            <mxPoint x="710" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-92" value="YES" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="uiSWtzwR43BjHoKQ6L8p-91">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
