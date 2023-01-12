@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-12T19:42:33.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="m6KWGmQR0ychWkFDo4md" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-12T19:52:57.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8tQMDC44s5q9MxTQL-Jd" version="20.8.5" type="github">
   <diagram id="r_YibBg9pNAlh49fxTqV" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -256,7 +256,7 @@
         <mxCell id="uiSWtzwR43BjHoKQ6L8p-37" value="NO" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="uiSWtzwR43BjHoKQ6L8p-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uiSWtzwR43BjHoKQ6L8p-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-23">
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iW8ypiJLn93vTO-Lixs0-23" target="uiSWtzwR43BjHoKQ6L8p-68">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="739.5" as="sourcePoint" />
             <mxPoint x="250" y="740" as="targetPoint" />
@@ -332,6 +332,27 @@
           <mxGeometry x="0.1679" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-68" value="Set foreign chute barcode" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-69" value="" style="endArrow=none;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uiSWtzwR43BjHoKQ6L8p-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-70" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="uiSWtzwR43BjHoKQ6L8p-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="900" as="sourcePoint" />
+            <mxPoint x="440" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiSWtzwR43BjHoKQ6L8p-71" value="YES" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="uiSWtzwR43BjHoKQ6L8p-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
