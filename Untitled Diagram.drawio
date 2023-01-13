@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-13T18:13:22.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PjShZpqc93us8ZdniSdw" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-13T18:19:52.838Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tFyXoeguxto1ltGxngT4" version="20.8.5" type="github">
   <diagram id="r_YibBg9pNAlh49fxTqV" name="Page-1">
     <mxGraphModel dx="880" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -465,8 +465,50 @@
         <mxCell id="7Ua8V0kMsa1blQkADIz--40" value="YES" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="7Ua8V0kMsa1blQkADIz--39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Ua8V0kMsa1blQkADIz--41" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Ignore variance?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="392.5" y="781.25" width="80" height="80" as="geometry" />
+        <mxCell id="7Ua8V0kMsa1blQkADIz--42" value="Check NOK chute by scanned barcode" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="791.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Ua8V0kMsa1blQkADIz--15" target="7Ua8V0kMsa1blQkADIz--42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="830" as="sourcePoint" />
+            <mxPoint x="300" y="831.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--44" value="NO" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="7Ua8V0kMsa1blQkADIz--43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--45" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Chute exists?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="450" y="883.75" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--46" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Return empty error&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="570" y="892.5" width="90" height="62.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--47" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Go to scan empty NOK bin&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1000" width="100" height="56.25" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Ua8V0kMsa1blQkADIz--42" target="7Ua8V0kMsa1blQkADIz--45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="910" as="sourcePoint" />
+            <mxPoint x="410" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--50" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7Ua8V0kMsa1blQkADIz--45" target="7Ua8V0kMsa1blQkADIz--46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="831.25" as="sourcePoint" />
+            <mxPoint x="440" y="831.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--51" value="NO" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="7Ua8V0kMsa1blQkADIz--50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--52" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Ua8V0kMsa1blQkADIz--45" target="7Ua8V0kMsa1blQkADIz--47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="867.5" as="sourcePoint" />
+            <mxPoint x="220" y="897.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7Ua8V0kMsa1blQkADIz--53" value="YES" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=11;" connectable="0" vertex="1" parent="7Ua8V0kMsa1blQkADIz--52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
